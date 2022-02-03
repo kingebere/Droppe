@@ -16,12 +16,14 @@ npm start
 ## Built with
 
 - [React](https://reactjs.org/)
-- [React Router](https://reactrouter.com/)
+
 - [Fake Store API](https://fakestoreapi.com/)
 
 
 ## Bugs to fix
 The fakestoreAPI isnt the greatest API in the world , hence ,I encountered challenges working with it and altered suitable choices I loved to make . Currently , The select field allows for duplicate selections of the name option which causes addition of duplicate fields values from the selected name  .Therefore, to get the intended result , please select a field only once until I come up with a suitable solution I hope to fix that bug . Seems challenging tho . 
+
+A second mionr bug is the function for calculating the discount . Sometimes , it works, sometimes it doesnt . I think i will have to relax my brain a bit to understand the concept of discounts in mathematics.
 
 ## Functionalities Implemented
 - Get 5 Childrens cart
