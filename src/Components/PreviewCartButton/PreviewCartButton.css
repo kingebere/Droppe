@@ -1,0 +1,31 @@
+.product__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.9rem;
+    font-family: var(--general-font);
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: var(--original-white);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product__button--happy {
+    background-color: var(--troperial-green);
+}
+
+.product__button--disabled {
+    background-color: var(--dark-grey);
+}
+
+.product__button--happy:hover {
+    background-color: var(--troperial-green-hover);
+}
+
+.mr-41 {
+    margin-top: 41px;
+}

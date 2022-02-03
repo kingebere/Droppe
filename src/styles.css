@@ -1,0 +1,107 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+
+a {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+html,
+body {
+  margin: 0;
+  font-size: 62.5%;
+  min-height: 100%;
+  padding: 0;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+  position: relative;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-weight: 1rem;
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+select {
+  word-wrap: normal;
+}
+
+.app {
+  max-width: 140rem;
+  margin: 0px auto;
+  padding: 4rem;
+}
+
+.App__price,
+.App__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  line-height: 0.6rem;
+}
+
+:root {
+  /* Colors */
+  --original-black: #000000;
+  --original-white: #ffffff;
+  --troperial-banner-blue: #e1f6ff;
+  --troperial-banner-border: #99cef9;
+
+  --dark-grey: #737a91;
+  --light-grey: #e8e8e8;
+  --mobile-verfied: #bdf6dc;
+  --troperial-green: #00d569;
+  --troperial-blue: #0383ef;
+  --troperial-blue-hover: #202020;
+  --troperial-dim-blue: #f3f8ff;
+  --warning-yellow: #f2c94c;
+  --danger-red: #f8e8e9;
+  --danger-red-icon: #e53e3e;
+  --danger-red-icon-hover: #e92222;
+  --error-color: #ff9ca1;
+  --success-green: #38a169;
+
+  /* Hover */
+  --troperial-blue-hover: #0563b1;
+  --danger-red-icon-hover: #e92222;
+  --troperial-green-hover: #04a153;
+}
