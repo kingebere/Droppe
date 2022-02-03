@@ -2,7 +2,7 @@
 
 This is a shopping cart with options for approving and rejecting products based on the parents choices. After the choices are made , they are redirected to a preview page whic showcases the approved and rejected selections made .
 
-[Live Demo](https://github.com/kingebere) :point_left:
+[Live Demo](https://droppe-ll0q3qxd8-kingebere.vercel.app/) :point_left:
 
 ## Getting started
 
