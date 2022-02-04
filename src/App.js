@@ -100,9 +100,9 @@ export default function App() {
       //Create Discount Logic
       if (isItemInCart) {
         return prev.map((item) =>
-          item.id === idx.id
-            ? { ...item, quantity: item.quantity + 0.1 }
-            : { ...item, quantity: 1 }
+          item.id === idx.id && item.quantity === 1
+            ? { ...item, quantity: 1- 0.2 }
+            : { ...item, quantity: item.quantity - 0.1 }
         );
       }
       //2. First time the item is added
