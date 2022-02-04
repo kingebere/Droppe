@@ -106,7 +106,7 @@ export default function App() {
         );
       }
       //2. First time the item is added
-      return [...prev, { ...idx, quantity: 0.1, clicked: 0.1 }];
+      return [...prev, { ...idx, quantity: 1 }];
     });
 
     //Logic for disabling multiple button Clicks
